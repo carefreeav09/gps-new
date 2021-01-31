@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*-------------------- COMMON  SECTION -------------------- */
+
+:root {
+    --primary : #75c32c;
+    --secondary: #fc7978;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.flex-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-rounded {
+    border-radius: 10em;
+    padding: 0.5rem 1.5rem;
+}
+
+.btn-primary {
+    background: var(--primary);
+    border: 0;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+/*-------------------- NAVBAR  SECTION -------------------- */
+.gps-navbar {
+    height: 80px;
+    background: transparent !important;
+}
+
+.gps-navbar a.nav-link {
+    padding: 0 15px !important;
+}
+
+/*-------------------- BANNER SECTION -------------------- */
+
+.banner-section {
+    background-image: url(https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2020/07/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    border-bottom-left-radius: 150px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner-section h6 {
+    font-weight: normal;
+}
+
+@media (min-width: 768px) {
+    .banner-section {
+        margin-top: -80px;
+    }
+}
+
+/*-------------------- ITEMS SECTION -------------------- */
+
+.items-section {
+    margin: 3rem 0;
+}
+
+.btn-items-icons {
+    background-color: rgba(117,195,44,.14);
+    fill: #75c32c;
+    color: #75c32c;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.btn-items-icons i {
+    font-size: 24px;
+    padding: 14px;
+}
+
+/*-------------------- FEATURED PRODUCTS SECTION -------------------- */
+
+.featured-products-section {
+    margin: 5rem 0;
+}
+
+.featured-products-section .card {
+    border: 0;
+    background:#eeedf3;
+    border-radius: 20px;
+}
+
+.featured-products-section .card:hover {
+    box-shadow: -2px 10px 20px 0px #ecf7e1;
+}
+
+
+.featured-products-section .card .card-title {
+    margin: 2rem 0;
+}
+
+.featured-products-section a.go-to-link {
+    color: #75c32c;
+    text-decoration: none;
+}
+
+.featured-products-section a.go-to-link:hover {
+    text-decoration: underline;
+}
+
+/*-------------------- PRODUCTS SECTION -------------------- */
+
+.products-section {
+    margin: 5rem 0;
+}
+
+.products-section .card {
+    border: 0;
+    background:#eeedf3;
+    border-radius: 20px;
+}
+
+.products-section i{
+    color: #fc7978;
+}
+
+/*-------------------- FOOTER SECTION -------------------- */
+
+footer {
+    padding: 5rem;
+    background: #fbfbfb;
+}
+
+.footer-image {
+    width: 192px;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.footer-images-wrapper {
+    padding: 20px 0;
+}
+
+footer i {
+    border-radius: 50%;
+    background-color: rgba(117,195,44,.14);
+    fill: #75c32c;
+    color: #75c32c;
+    margin: 0 1rem;
+}
+
+/*------------------------------------------------- */
+/*-------------------- ABOUT PAGE -------------------- */
+/*------------------------------------------------------- */
+
+/*-------------------- ABOUT BANNER SECTION -------------------- */
+
+.about-banner-section {
+    background-image: url(https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2020/07/about-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.about-banner-section h6 {
+    font-weight: normal;
+}
+
+@media (min-width: 768px) {
+    .about-banner-section {
+        margin-top: -80px;
+    }
+}
+
+.about-wrapper img {
+    height: 30vh;
+}
+
+/*------------------------------------------------- */
+/*-------------------- CONTACT PAGE -------------------- */
+/*------------------------------------------------------- */
+
+/*-------------------- CONTACT BANNER SECTION -------------------- */
+
+.contact-banner-section {
+    background-image: url(https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2020/07/about-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-banner-section h6 {
+    font-weight: normal;
+}
+
+@media (min-width: 768px) {
+    .contact-banner-section {
+        margin-top: -80px;
+    }
+}
+
+/*------------------------------------------------- */
+/*-------------------- Product PAGE -------------------- */
+/*------------------------------------------------------- */
+
+/*-------------------- Product page-------------------- */
+
+.product-page-section {
+
+}
+
+.product-page-section figure img {
+    width: 100%;
+}
+
+.product-listings-section .card {
+    border: transparent;
+}
+
+.product-listings-section a.go-to-link {
+    color: #75c32c;
+    text-decoration: none;
+}
+
+.product-listings-section i{
+    color: #fc7978;
+    font-size: 12px;
+}
+
+.product-details-section .card {
+    border: transparent;
+}
+
+.product-details-section
