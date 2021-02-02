@@ -261,4 +261,21 @@ footer i {
     border: transparent;
 }
 
-.product-details-section
+.half-width-div {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .half-width-div {
+        width: 100%;
+    }
+
+    footer {
+        padding: 2rem;
+        background: #fbfbfb;
+    }
+
+    .row {
+        --bs-gutter-x : 0rem
+    }
+}
