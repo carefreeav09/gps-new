@@ -265,6 +265,15 @@ footer i {
     width: 50%;
 }
 
+
+.show-in-small {
+    display: none;
+}
+
+.hide-in-small {
+    display: block;
+}
+
 @media (max-width: 768px) {
     .half-width-div {
         width: 100%;
@@ -277,5 +286,13 @@ footer i {
 
     .row {
         --bs-gutter-x : 0rem
+    }
+
+    .show-in-small {
+        display: inline-block;
+    }
+
+    .hide-in-small {
+        display: none;
     }
 }
